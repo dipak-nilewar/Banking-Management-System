@@ -1,16 +1,8 @@
-# Compiled class file
+# Java / Spring Boot
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
 *.ctxt
-
-# Mobile Tools for Java (J2ME)
 .mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.nar
@@ -18,7 +10,32 @@
 *.zip
 *.tar.gz
 *.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+backend/target/
+backend/.idea/
+backend/*.iml
+
+# React / Node
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Environment / secrets
+.env
+.env.*
+backend/.env
+frontend/.env
+
+# Local Spring configuration
+backend/src/main/resources/application-local.properties
+backend/src/main/resources/application-secret.properties
+
+# OS
+.DS_Store
+Thumbs.db
